@@ -1,0 +1,11 @@
+---@diagnostic disable: missing-return
+---@class CachedTileData : Object
+---@field address LuaInt64
+---@field MetaFilePath string
+---@field ArtModelPath string
+---@field X integer
+---@field Y integer
+---@field Walkable boolean
+---@field WalkableCellX integer
+---@field WalkableCellY integer
+CachedTileData = {}
